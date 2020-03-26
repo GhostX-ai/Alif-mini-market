@@ -64,7 +64,7 @@ namespace lesson3
                         else goto End;
                     }
                     case 3:{
-                        System.Console.WriteLine("You can full it with Alif wallet or Alif card\n Enter your mubners:");
+                        System.Console.WriteLine("You can full it with Alif wallet or Alif card\n Enter your numbers:");
                         Console.ReadLine();
                         System.Console.WriteLine("Enter a number:");
                         decimal money = decimal.Parse(Console.ReadLine());
