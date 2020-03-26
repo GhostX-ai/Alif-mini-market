@@ -70,6 +70,7 @@ namespace lesson3
                         decimal money = decimal.Parse(Console.ReadLine());
                         userBalance += money;
                         System.Console.Write("Do you want to continue? y/n:");
+                        System.Console.WriteLine(userBalance);
                         if (Console.ReadLine().ToLower() == "y") goto start;
                         else goto End;
                     }
